@@ -84,8 +84,8 @@ def flush(outNDWI, outData):
 
 if __name__ == '__main__':
     # Download and extract the data
-    #downloadData()
-    #extractData()
+    downloadData()
+    extractData()
 
     # Opening the data
     bands, dataSource = openData()
